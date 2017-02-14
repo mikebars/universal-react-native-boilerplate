@@ -1,0 +1,29 @@
+{
+	"name": "universal-react-native-boilerplate",
+	"version": "0.0.1",
+	"scripts": {
+		"build": "react-scripts build",
+		"start-android": "react-native run-android",
+		"start-ios": "react-native run-ios",
+		"start-web": "react-scripts start",
+		"test": "jest"
+	},
+	"author": "Mike Bars (@mikebars)",
+	"license": "ISC",
+	"homepage": "https://mikebars.github.io/universal-react-native-boilerplate",
+	"dependencies": {
+		"react": "^15.4.2",
+		"react-native": "0.41.2",
+		"react-native-web": "^0.0.70"
+	},
+	"devDependencies": {
+		"babel-jest": "18.0.0",
+		"babel-preset-react-native": "1.9.1",
+		"jest": "18.1.0",
+		"react-scripts": "0.9.0",
+		"react-test-renderer": "~15.4.0"
+	},
+	"jest": {
+		"preset": "react-native"
+	}
+}
